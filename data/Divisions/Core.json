@@ -1,0 +1,140 @@
+[
+    {
+        "id" : 1,
+        "img" : "core/madya.png",
+        "name" : "I Made Ari Madya Santosa",
+        "position" : "SIC Lead",
+        "sosmed" : [
+            {
+                "id" : 1,
+                "apps" : "Instagram",
+                "username" : "https://instagram.com/madya.santosa"
+            },
+            {
+                "id" : 2,
+                "apps" : "Github",
+                "username" : "madya-dev"
+            },
+            {
+                "id" : 3,
+                "apps" : "Linkedin",
+                "username" : "https://linkedin.com/in/madyasantosa"
+            }
+        ]
+    },
+    {
+        "id" : 2,
+        "img" : "core/putu-waw.png",
+        "name" : "Putu Widyantara Artanta W.",
+        "position" : "SIC Vice Lead",
+        "sosmed" : [
+            {
+                "id" : 1,
+                "apps" : "Instagram",
+                "username" : "https://instagram.com/putu_waw"
+            },
+            {
+                "id" : 2,
+                "apps" : "Github",
+                "username" : "putuwaw"
+            },
+            {
+                "id" : 3,
+                "apps" : "Linkedin",
+                "username" : "https://www.linkedin.com/in/putuwidyantara/"
+            }
+        ]
+    },
+    {
+        "id" : 3,
+        "img" : "core/amanda.png",
+        "name" : "Ni Wayan Amanda Putri A.",
+        "position" : "SIC Secretary I",
+        "sosmed" : [
+            {
+                "id" : 1,
+                "apps" : "Instagram",
+                "username" : "https://instagram.com/amandawayan_?igshid=NTA5ZTk1NTc="
+            },
+            {
+                "id" : 2,
+                "apps" : "Github",
+                "username" : "jstmnd"
+            },
+            {
+                "id" : 3,
+                "apps" : "Linkedin",
+                "username" : "https://www.linkedin.com/in/wayan-amanda-6b3a7721a"
+            }
+        ]
+    },
+    {
+        "id" : 4,
+        "img" : "core/devon.png",
+        "name" : "Devon Vivian Gunawan",
+        "position" : "SIC Secretary II",
+        "sosmed" : [
+            {
+                "id" : 1,
+                "apps" : "Instagram",
+                "username" : "https://instagram.com/devonvivian_?igshid=ZmZhODViOGI="
+            },
+            {
+                "id" : 2,
+                "apps" : "Github",
+                "username" : "devonvivian"
+            },
+            {
+                "id" : 3,
+                "apps" : "Linkedin",
+                "username" : "http://www.linkedin.com/in/devon-vivian-gunawan"
+            }
+        ]
+    },
+    {
+        "id" : 5,
+        "img" : "core/shiennyta.png",
+        "name" : "Shiennyta Florensia A.",
+        "position" : "SIC Finance Manager I",
+        "sosmed" : [
+            {
+                "id" : 1,
+                "apps" : "Instagram",
+                "username" : "https://www.instagram.com/shienny_flo"
+            },
+            {
+                "id" : 2,
+                "apps" : "Github",
+                "username" : "ShiennyFlo"
+            },
+            {
+                "id" : 3,
+                "apps" : "Linkedin",
+                "username" : "https://www.linkedin.com/in/shiennyta-florensia"
+            }
+        ]
+    },
+    {
+        "id" : 6,
+        "img" : "core/danendra.png",
+        "name" : "Danendra Darmawansyah",
+        "position" : "SIC Finance Manager II",
+        "sosmed" : [
+            {
+                "id" : 1,
+                "apps" : "Instagram",
+                "username" : "https://instagram.com/danendrasyh?igshid=ZmZhODViOGI="
+            },
+            {
+                "id" : 2,
+                "apps" : "Github",
+                "username" : "nenz24"
+            },
+            {
+                "id" : 3,
+                "apps" : "Linkedin",
+                "username" : "https://www.linkedin.com/in/danendra-darmawansyah-62ab82241"
+            }
+        ]
+    }
+]

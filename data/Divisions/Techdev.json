@@ -1,0 +1,232 @@
+[
+    {
+        "id" : 1,
+        "img" : "techdev/tude.png",
+        "name" : "I Putu Gede Mahardika Adi P.",
+        "position" : "SIC Tech & Dev Lead",
+        "sosmed" : [
+            {
+                "id" : 1,
+                "apps" : "Instagram",
+                "username" : "http://instagram.com/tudemaha"
+            },
+            {
+                "id" : 2,
+                "apps" : "Github",
+                "username" : "tudemaha"
+            },
+            {
+                "id" : 3,
+                "apps" : "Linkedin",
+                "username" : "http://linkedin.com/in/tudemaha"
+            }
+        ]
+    },
+    {
+        "id" : 2,
+        "img" : "techdev/pande.png",
+        "name" : "Pande Gede Dani Wismagatha",
+        "position" : "SIC Tech & Dev Member",
+        "sosmed" : [
+            {
+                "id" : 1,
+                "apps" : "Instagram",
+                "username" : "https://www.instagram.com/pande.dani13/?hl=en"
+            },
+            {
+                "id" : 2,
+                "apps" : "Github",
+                "username" : "LvnnnX"
+            },
+            {
+                "id" : 3,
+                "apps" : "Linkedin",
+                "username" : "https://www.linkedin.com/in/pande-gede-dani-wismagatha-b7709821b"
+            }
+        ]
+    },
+    {
+        "id" : 3,
+        "img" : "techdev/distod.png",
+        "name" : "I Putu Diska Fortunawan",
+        "position" : "SIC Tech & Dev Member",
+        "sosmed" : [
+            {
+                "id" : 1,
+                "apps" : "Instagram",
+                "username" : "https://instagram.com/diskaf_?igshid=YmMyMTA2M2Y="
+            },
+            {
+                "id" : 2,
+                "apps" : "Github",
+                "username" : "AksidF"
+            },
+            {
+                "id" : 3,
+                "apps" : "Linkedin",
+                "username" : "https://www.linkedin.com/in/diskaf"
+            }
+        ]
+    },
+    {
+        "id" : 4,
+        "img" : "techdev/teddy.png",
+        "name" : "I Putu Teddy Dharma Wijaya",
+        "position" : "SIC Tech & Dev Member",
+        "sosmed" : [
+            {
+                "id" : 1,
+                "apps" : "Instagram",
+                "username" : "https://instagram.com/tedidharma_?igshid=ZDdkNTZiNTM="
+            },
+            {
+                "id" : 2,
+                "apps" : "Github",
+                "username" : "TeddyDharma"
+            },
+            {
+                "id" : 3,
+                "apps" : "Linkedin",
+                "username" : ""
+            }
+        ]
+    },
+    {
+        "id" : 5,
+        "img" : "techdev/bakti.png",
+        "name" : "Kadek Bakti Pramanayoga St",
+        "position" : "SIC Tech & Dev Member",
+        "sosmed" : [
+            {
+                "id" : 1,
+                "apps" : "Instagram",
+                "username" : "https://instagram.com/chi.bakuu"
+            },
+            {
+                "id" : 2,
+                "apps" : "Github",
+                "username" : "Aikonbyu"
+            },
+            {
+                "id" : 3,
+                "apps" : "Linkedin",
+                "username" : "https://linkedin.com/in/baktipst"
+            }
+        ]
+    },
+    {
+        "id" : 6,
+        "img" : "techdev/sakti.png",
+        "name" : "Desak Putu Tia Rusilia Wati",
+        "position" : "SIC Tech & Dev Member",
+        "sosmed" : [
+            {
+                "id" : 1,
+                "apps" : "Instagram",
+                "username" : "https://instagram.com/saaktiii__?igshid=YWJhMjlhZTc="
+            },
+            {
+                "id" : 2,
+                "apps" : "Github",
+                "username" : "sakti09"
+            },
+            {
+                "id" : 3,
+                "apps" : "Linkedin",
+                "username" : "https://linkedin.com/in/desak-putu-tia-rusilia-wati-a8502817a"
+            }
+        ]
+    },
+    {
+        "id" : 7,
+        "img" : "techdev/purnami.png",
+        "name" : "Ni Komang Purnami",
+        "position" : "SIC Tech & Dev Member",
+        "sosmed" : [
+            {
+                "id" : 1,
+                "apps" : "Instagram",
+                "username" : "https://instagram.com/vrnamii?igshid=ZmZhODViOGI="
+            },
+            {
+                "id" : 2,
+                "apps" : "Github",
+                "username" : "vrnamii"
+            },
+            {
+                "id" : 3,
+                "apps" : "Linkedin",
+                "username" : "https://linkedin.com/in/purnami44"
+            }
+        ]
+    },
+    {
+        "id" : 8,
+        "img" : "techdev/belva.png",
+        "name" : "Kadek Belvanatha Gargita S.",
+        "position" : "SIC Tech & Dev Member",
+        "sosmed" : [
+            {
+                "id" : 1,
+                "apps" : "Instagram",
+                "username" : "https://instagram.com/belvasatwikananda/"
+            },
+            {
+                "id" : 2,
+                "apps" : "Github",
+                "username" : "Enryu5"
+            },
+            {
+                "id" : 3,
+                "apps" : "Linkedin",
+                "username" : "https://linkedin.com/in/belvanatha-gargita-825920252"
+            }
+        ]
+    },
+    {
+        "id" : 9,
+        "img" : "techdev/chandra.png",
+        "name" : "I Made Chandra Widjaya",
+        "position" : "SIC Tech & Dev Member",
+        "sosmed" : [
+            {
+                "id" : 1,
+                "apps" : "Instagram",
+                "username" : "https://instagram.com/ChandraWid"
+            },
+            {
+                "id" : 2,
+                "apps" : "Github",
+                "username" : "ChandraWid"
+            },
+            {
+                "id" : 3,
+                "apps" : "Linkedin",
+                "username" : "https://linkedin.com/in/chandrawidjaya"
+            }
+        ]
+    },
+    {
+        "id" : 10,
+        "img" : "techdev/joe.png",
+        "name" : "Vodka Joe Junior",
+        "position" : "SIC Tech & Dev Member",
+        "sosmed" : [
+            {
+                "id" : 1,
+                "apps" : "Instagram",
+                "username" : "https://instagram.com/vodkajoe/?hl=en"
+            },
+            {
+                "id" : 2,
+                "apps" : "Github",
+                "username" : "VdkaJr"
+            },
+            {
+                "id" : 3,
+                "apps" : "Linkedin",
+                "username" : "https://linkedin.com/in/vodka-joe-931a13252/"
+            }
+        ]
+    }
+]   

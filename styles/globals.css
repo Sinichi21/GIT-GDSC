@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --swiper-theme-color: #63A8E7 !important;
+  --swiper-navigation-size: 75px !important;
+  --abu: #718096 !important;
+}
+
+body{
+  overflow-x: hidden;
+}
+.swiper-wrapper{
+  transition-timing-function: linear !important;
+}
+
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+.text-primary-sic {
+  color: #63A8E7 !important;
+}
+
+.text-black-sic {
+  color: #2D3748 !important;
+}
+
+.text-abu-sic{
+  color: #718096 !important;
+}
+
+/* Activity Card */
+  .swiper-wrapper {
+    margin-top: 60px;
+  }
+
+  .swiper-button-prev {
+    background-image: url('/assets/activity/prev.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    top: 27px !important;
+    right: 65px !important;
+    left: auto !important;
+  }
+
+  .swiper-button-next {
+    background-image: url('/assets/activity/next.svg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    top: 27px !important;
+    right: 1px !important;
+    left: auto !important;
+  }
+
+  .swiper-button-next::after,
+  .swiper-button-prev::after {
+    display: none;
+  }
+
+
+@media screen and (max-width: 700px){
+  h1{
+    font-size: 28px !important;
+  }
+  h2{
+    font-size: 24px !important;
+  }
+  p{
+    font-size: 15px !important;
+  }
+}

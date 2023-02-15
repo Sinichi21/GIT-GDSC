@@ -1,0 +1,232 @@
+[
+    {
+        "id" : 1,
+        "img" : "engineering/taksa.png",
+        "name" : "I Made Sudarsana Taksa W.",
+        "position" : "SIC Engineering Lead",
+        "sosmed" : [
+            {
+                "id" : 1,
+                "apps" : "Instagram",
+                "username" : "https://www.instagram.com/taksawibawa"
+            },
+            {
+                "id" : 2,
+                "apps" : "Github",
+                "username" : "TaksaWibawa"
+            },
+            {
+                "id" : 3,
+                "apps" : "Linkedin",
+                "username" : "https://www.linkedin.com/in/taksawibawa"
+            }
+        ]
+    },
+    {
+        "id" : 2,
+        "img" : "engineering/teguh.png",
+        "name" : "Made Putra Teguh Pramana",
+        "position" : "SIC Engineering Member",
+        "sosmed" : [
+            {
+                "id" : 1,
+                "apps" : "Instagram",
+                "username" : ""
+            },
+            {
+                "id" : 2,
+                "apps" : "Github",
+                "username" : ""
+            },
+            {
+                "id" : 3,
+                "apps" : "Linkedin",
+                "username" : ""
+            }
+        ]
+    },
+    {
+        "id" : 3,
+        "img" : "engineering/krisna.png",
+        "name" : "Anak Agung Made Krisna",
+        "position" : "SIC Engineering Member",
+        "sosmed" : [
+            {
+                "id" : 1,
+                "apps" : "Instagram",
+                "username" : "https://instagram.com/gungkrisna56/"
+            },
+            {
+                "id" : 2,
+                "apps" : "Github",
+                "username" : "imkzuma"
+            },
+            {
+                "id" : 3,
+                "apps" : "Linkedin",
+                "username" : ""
+            }
+        ]
+    },
+    {
+        "id" : 4,
+        "img" : "engineering/deva.png",
+        "name" : "I Kadek Bagus Deva Diga D. P.",
+        "position" : "SIC Engineering Member",
+        "sosmed" : [
+            {
+                "id" : 1,
+                "apps" : "Instagram",
+                "username" : "https://instagram.com/bagusdevaa/"
+            },
+            {
+                "id" : 2,
+                "apps" : "Github",
+                "username" : "Bagusdevaa"
+            },
+            {
+                "id" : 3,
+                "apps" : "Linkedin",
+                "username" : "https://www.linkedin.com/in/i-kadek-bagus-deva-diga-dana-putra-368b29225/"
+            }
+        ]
+    },
+    {
+        "id" : 5,
+        "img" : "engineering/gemuh.png",
+        "name" : "I Wayan Gede Gemuh R. RL",
+        "position" : "SIC Engineering Member",
+        "sosmed" : [
+            {
+                "id" : 1,
+                "apps" : "Instagram",
+                "username" : "https://www.instagram.com/raharja21/"
+            },
+            {
+                "id" : 2,
+                "apps" : "Github",
+                "username" : "Sinichi21"
+            },
+            {
+                "id" : 3,
+                "apps" : "Linkedin",
+                "username" : "https://www.linkedin.com/in/gemuh-raharja"
+            }
+        ]
+    },
+    {
+        "id" : 6,
+        "img" : "engineering/ryan.png",
+        "name" : "Ida Bagus Putu Ryan P. P.",
+        "position" : "SIC Engineering Member",
+        "sosmed" : [
+            {
+                "id" : 1,
+                "apps" : "Instagram",
+                "username" : "https://instagram.com/ryan_parama?igshid=NmQ2ZmYxZjA="
+            },
+            {
+                "id" : 2,
+                "apps" : "Github",
+                "username" : "GustuRyan"
+            },
+            {
+                "id" : 3,
+                "apps" : "Linkedin",
+                "username" : "https://www.linkedin.com/in/ida-bagus-putu-ryan-paramasatya-putra-414913250"
+            }
+        ]
+    },
+    {
+        "id" : 7,
+        "img" : "engineering/steven.png",
+        "name" : "Putu Steven Belva Chan",
+        "position" : "SIC Engineering Member",
+        "sosmed" : [
+            {
+                "id" : 1,
+                "apps" : "Instagram",
+                "username" : "https://www.instagram.com/stevenbelva/"
+            },
+            {
+                "id" : 2,
+                "apps" : "Github",
+                "username" : "stevenchan7"
+            },
+            {
+                "id" : 3,
+                "apps" : "Linkedin",
+                "username" : "https://www.linkedin.com/in/stevenbelvac"
+            }
+        ]
+    },
+    {
+        "id" : 8,
+        "img" : "engineering/merry.png",
+        "name" : "Merry Royanti Manalu",
+        "position" : "SIC Engineering Member",
+        "sosmed" : [
+            {
+                "id" : 1,
+                "apps" : "Instagram",
+                "username" : "https://instagram.com/merryroyantii?igshid=Yzg5MTU1MDY="
+            },
+            {
+                "id" : 2,
+                "apps" : "Github",
+                "username" : "merryroyanti24"
+            },
+            {
+                "id" : 3,
+                "apps" : "Linkedin",
+                "username" : "https://www.linkedin.com/in/merry-royanti-manalu-83a714252"
+            }
+        ]
+    },
+    {
+        "id" : 9,
+        "img" : "engineering/febri.png",
+        "name" : "Febrian Valentino Agape",
+        "position" : "SIC Engineering Member",
+        "sosmed" : [
+            {
+                "id" : 1,
+                "apps" : "Instagram",
+                "username" : "https://instagram.com/febrian_vlntn_"
+            },
+            {
+                "id" : 2,
+                "apps" : "Github",
+                "username" : "CaptTino"
+            },
+            {
+                "id" : 3,
+                "apps" : "Linkedin",
+                "username" : ""
+            }
+        ]
+    },
+    {
+        "id" : 10,
+        "img" : "engineering/weda.png",
+        "name" : "Pande Nyoman Weda W.",
+        "position" : "SIC Engineering Member",
+        "sosmed" : [
+            {
+                "id" : 1,
+                "apps" : "Instagram",
+                "username" : "https://www.instagram.com/wed.da_"
+            },
+            {
+                "id" : 2,
+                "apps" : "Github",
+                "username" : "wedawesnawa"
+            },
+            {
+                "id" : 3,
+                "apps" : "Linkedin",
+                "username" : "https://www.linkedin.com/in/nyoman-weda-71a160251/"
+            }
+        ]
+    }
+]

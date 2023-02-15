@@ -1,0 +1,390 @@
+[
+    {
+        "key" : "1",
+        "clubs" : "Front-End",
+        "nama" : "Anak Agung Made Krisna",
+        "phone" : "0895386231326",
+        "line" : "agungkrisna221",
+        "caption" : "The frontend club learns how to development a responsive, interactive and user friendly graphical user interface of a website.",
+        "img" : "lead-fe.png",
+        "tools" : [
+            {
+                "id" : 1,
+                "name" : "VS Code",
+                "img" : "vscode.png"
+            },
+            {
+                "id" : 2,
+                "name" : "GitHub",
+                "img" : "GitHub.png"
+            },
+            {
+                "id" : 3,
+                "name" : "React JS",
+                "img" : "react.png"
+            },
+            {
+                "id" : 4,
+                "name" : "Next JS",
+                "img" : "nextjs.png"
+            },
+            {
+                "id" : 5,
+                "name" : "Discord",
+                "img" : "Discord.png"
+            },
+            {
+                "id" : 6,
+                "name" : "HTML",
+                "img" : "HTML.png"
+            },
+            {
+                "id" : 7,
+                "name" : "CSS",
+                "img" : "CSS.png"
+            },
+            {
+                "id" : 8,
+                "name" : "JavaScript",
+                "img" : "JavaScript.png"
+            },
+            {
+                "id" : 9,
+                "name" : "Bootstrap",
+                "img" : "Bootstrap.png"
+            },
+            {
+                "id" : 10,
+                "name" : "Chakra UI",
+                "img" : "chakra.png"
+            }
+            
+        ]
+    },
+
+    {
+        "key" : "2",
+        "clubs" : "Back-End",
+        "nama" : "Putu Steven Belva Chan",
+        "phone" : "081339683882",
+        "line" : "0stevenchan0",
+        "caption" : "The back-end club learns how to build and maintain the mechanisms that process data, perform other server-side functions, and perform actions of a website that are not visible to the user.",
+        "img" : "lead-be.png",
+        "tools" : [
+            {
+                "id" : 1,
+                "name" : "VS Code",
+                "img" : "vscode.png"
+            },
+            {
+                "id" : 2,
+                "name" : "GitHub",
+                "img" : "GitHub.png"
+            },
+            {
+                "id" : 3,
+                "name" : "React JS",
+                "img" : "react.png"
+            },
+            {
+                "id" : 4,
+                "name" : "Next JS",
+                "img" : "nextjs.png"
+            },
+            {
+                "id" : 5,
+                "name" : "Discord",
+                "img" : "Discord.png"
+            },
+            {
+                "id" : 11,
+                "name" : "Golang",
+                "img" : "Golang.png"
+            }
+        ]
+    },
+
+    {
+        "key" : "3",
+        "clubs" : "Data Science",
+        "nama" : "Putu Widyantara Artanta W.",
+        "phone" : "085338391881",
+        "line" : "putu_waw",
+        "caption" : "Data club learns about programming, statistics, and mathematics that aim to collect, interpret, and analyze large structured and unstructured data sets. In practice, it is like conducting experiments on the data that has been collected to provide the most appropriate solution for a company or business.",
+        "img" : "lead-science.png",
+        "tools" : [
+            {
+                "id" : 1,
+                "name" : "VS Code",
+                "img" : "vscode.png"
+            },
+            {
+                "id" : 2,
+                "name" : "GitHub",
+                "img" : "GitHub.png"
+            },
+            {
+                "id" : 12,
+                "name" : "SQL",
+                "img" : "SQL.png"
+            },
+            {
+                "id" : 13,
+                "name" : "Python",
+                "img" : "Python.png"
+            },
+            {
+                "id" : 5,
+                "name" : "Discord",
+                "img" : "Discord.png"
+            },
+            {
+                "id" : 14,
+                "name" : "Tensorflow",
+                "img" : "Tensorflow.png"
+            },
+            {
+                "id" : 15,
+                "name" : "Git",
+                "img" : "Git.png"
+            },
+            {
+                "id" : 16,
+                "name" : "Jupyter",
+                "img" : "Jupyter.png"
+            },
+            {
+                "id" : 17,
+                "name" : "Google Collab",
+                "img" : "colab.png"
+            },
+            {
+                "id" : 18,
+                "name" : "Tableau",
+                "img" : "Tableau.png"
+            }
+        ]
+    },
+
+    {
+        "key" : "4",
+        "clubs" : "DevOps",
+        "nama" : "I Wayan Gede Gemuh R. RL",
+        "phone" : "085175320030",
+        "line" : "gemuh_raharja21",
+        "caption" : "Dev-Ops club learns how to collaborate between the development team and the operations team in the release of an application or website that is effective and efficient from development, testing, implementation, to management.",
+        "img" : "lead-devops.png",
+        "tools" : [
+            {
+                "id" : 1,
+                "name" : "VS Code",
+                "img" : "vscode.png"
+            },
+            {
+                "id" : 2,
+                "name" : "GitHub",
+                "img" : "GitHub.png"
+            },
+            {
+                "id" : 19,
+                "name" : "AWS",
+                "img" : "AWS.png"
+            },
+            {
+                "id" : 20,
+                "name" : "Docker",
+                "img" : "Docker.png"
+            },
+            {
+                "id" : 5,
+                "name" : "Discord",
+                "img" : "Discord.png"
+            }
+        ]
+    },
+
+    {
+        "key" : "5",
+        "clubs" : "Mobile",
+        "nama" : "Komang Wahyu Agastya",
+        "phone" : "08990342197",
+        "line" : "wahyuagastya",
+        "caption" : "Mobile Club learns how to design, develop, and implement mobile applications, such as Google's Android, Apple's iOS, and Microsoft's Windows Phone.",
+        "img" : "lead-mobile.png",
+        "tools" : [
+            {
+                "id" : 21,
+                "name" : "Android Studio",
+                "img" : "android.png"
+            },
+            {
+                "id" : 2,
+                "name" : "GitHub",
+                "img" : "GitHub.png"
+            },
+            {
+                "id" : 22,
+                "name" : "Kotlin",
+                "img" : "Kotlin.png"
+            },
+            {
+                "id" : 23,
+                "name" : "Flutter",
+                "img" : "Flutter.png"
+            },
+            {
+                "id" : 24,
+                "name" : "Swift",
+                "img" : "Swift.png"
+            },
+            {
+                "id" : 5,
+                "name" : "Discord",
+                "img" : "Discord.png"
+            }
+        ]
+    },
+
+    {
+        "key" : "6",
+        "clubs" : "Business",
+        "nama" : "I Kadek Bagus Deva Diga D. P.",
+        "phone" : "081547427721",
+        "line" : "devadiga10",
+        "caption" : "Business Club learns how to organize and manage a business followed by technological developments in product marketing with the aim of meeting customer needs and expectations.",
+        "img" : "lead-business.png",
+        "tools" : [
+            {
+                "id" : 25,
+                "name" : "Notion",
+                "img" : "Notion.png"
+            },
+            {
+                "id" : 26,
+                "name" : "Excel",
+                "img" : "Excel.png"
+            },
+            {
+                "id" : 5,
+                "name" : "Discord",
+                "img" : "Discord.png"
+            }
+        ]
+    },
+
+    {
+        "key" : "7",
+        "clubs" : "IoT",
+        "nama" : "I Putu Gede Mahardika Adi P.",
+        "phone" : "085156892134",
+        "line" : "tude_maha128",
+        "caption" : "IoT Club studies how a certain object is able to produce an interaction between machines that have been connected automatically without any interaction from human to human or from human to computer devices but through the internet. Humans are only the organizers and supervisors of the machines that work directly.",
+        "img" : "lead-iot.png",
+        "tools" : [
+            {
+                "id" : 27,
+                "name" : "Arduino IDE",
+                "img" : "arduino.png"
+            },
+            {
+                "id" : 28,
+                "name" : "Raspberry Pi",
+                "img" : "raspberry.png"
+            },
+            {
+                "id" : 29,
+                "name" : "Fritzing",
+                "img" : "Fritzing.png"
+            },
+            {
+                "id" : 30,
+                "name" : "Microphyton",
+                "img" : "Microphyton.png"
+            },
+            {
+                "id" : 31,
+                "name" : "Proteus",
+                "img" : "Proteus.png"
+            },
+            {
+                "id" : 5,
+                "name" : "Discord",
+                "img" : "Discord.png"
+            }
+        ]
+    },
+
+    {
+        "key" : "8",
+        "clubs" : "UI/UX",
+        "nama" : "Ratri Desy Christirahma",
+        "phone" : "085707134583",
+        "line" : "",
+        "caption" : "UI/UX Club learns how to develop digital products such as applications and websites by paying attention to the beauty of visual display design (User Interface) and the efficiency of user needs (User Experience).",
+        "img" : "lead-ui.png",
+        "tools" : [
+            {
+                "id" : 32,
+                "name" : "Figma",
+                "img" : "Figma.png"
+            },
+            {
+                "id" : 33,
+                "name" : "Whimsical",
+                "img" : "Whimsical.png"
+            },
+            {
+                "id" : 34,
+                "name" : "Illustrator",
+                "img" : "Illustrator.png"
+            },
+            {
+                "id" : 35,
+                "name" : "Photoshop",
+                "img" : "Photoshop.png"
+            },
+            {
+                "id" : 5,
+                "name" : "Discord",
+                "img" : "Discord.png"
+            }
+        ]
+    },
+    
+    {
+        "key" : "9",
+        "clubs" : "KTI",
+        "nama" : "I Putu Gede Mahardika Adi P.",
+        "phone" : "085156892134",
+        "line" : "tude_maha128",
+        "caption" : "KTI Club learns how to create a scientific paper based on the results of research or thoughts that fulfill scientific rules and ethics to provide benefits to the wider community.",
+        "img" : "lead-kti.png",
+        "tools" : [
+            {
+                "id" : 36,
+                "name" : "Word",
+                "img" : "Word.png"
+            },
+            {
+                "id" : 37,
+                "name" : "PowerPoint",
+                "img" : "PowerPoint.png"
+            },
+            {
+                "id" : 38,
+                "name" : "SPSS",
+                "img" : "SPSS.png"
+            },
+            {
+                "id" : 39,
+                "name" : "Mendeley",
+                "img" : "Mendeley.png"
+            },
+            {
+                "id" : 5,
+                "name" : "Discord",
+                "img" : "Discord.png"
+            }
+        ]
+    }
+]

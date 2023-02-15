@@ -1,0 +1,33 @@
+[
+  {
+    "id": 1,
+    "img": "sharing-session.png",
+    "title": "Sharing",
+    "span": "Session",
+    "desc": "This activity allows you to gain new knowledge or deepen the knowledge you already have on certain topics related to technology. The Sharing Session aims to share knowledge and skills in a field related to technology. Look forward to information about sharing sessions on SIC's social media!"
+  },
+
+  {
+    "id": 2,
+    "img": "discusion.png",
+    "title": "Forum Group",
+    "span": "Discussion",
+    "desc": "Have questions about technology?, Focus Group Discussions are the right place to discuss informally on a topic related to technology. If you feel you don't know well a topic about technology, we will guide you to understand more about this topic through a discussions."
+  },
+
+  {
+    "id": 3,
+    "img": "immerse.png",
+    "title": "Immerse",
+    "span": "Project",
+    "desc": "Immerse Projects allow you to gain knowledge and experience in creating a project that is in the real world of work. By collaborating to create a project, you can add that experience to your CV later. With this project on your CV, your chances of getting a job, internship, or client will also increase."
+  },
+
+  {
+    "id": 4,
+    "img": "stack.png",
+    "title": "Stack",
+    "span": "",
+    "desc": "SIC Tech Talk and Practice (STACK) is here to provide experience in gaining new knowledge and skills. Slightly different from other activities, in this activity you will gain direct knowledge about theory and practice from a field in the world of technology."
+  }
+]

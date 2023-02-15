@@ -1,0 +1,232 @@
+[
+    {
+        "id" : 1,
+        "img" : "design/alex.png",
+        "name" : "Charles Alexander Ririmasse",
+        "position" : "SIC Design Lead",
+        "sosmed" : [
+            {
+                "id" : 1,
+                "apps" : "Instagram",
+                "username" : "https://instagram.com/alxdrr_?igshid=NTA5ZTk1NTc="
+            },
+            {
+                "id" : 2,
+                "apps" : "Github",
+                "username" : "alxdrr"
+            },
+            {
+                "id" : 3,
+                "apps" : "Linkedin",
+                "username" : "https://linkedin.com/in/charles-alexander-5585b4197"
+            }
+        ]
+    },
+    {
+        "id" : 2,
+        "img" : "design/ratri.png",
+        "name" : "Ratri Desy Christirahma",
+        "position" : "SIC Design Member",
+        "sosmed" : [
+            {
+                "id" : 1,
+                "apps" : "Instagram",
+                "username" : "https://instagram.com/ratridcr/"
+            },
+            {
+                "id" : 2,
+                "apps" : "Github",
+                "username" : "ratridcr"
+            },
+            {
+                "id" : 3,
+                "apps" : "Linkedin",
+                "username" : "https://linkedin.com/in/ratridesy"
+            }
+        ]
+    },
+    {
+        "id" : 3,
+        "img" : "design/agung.png",
+        "name" : "A. A. Ngurah Mahadana A. G.",
+        "position" : "SIC Design Member",
+        "sosmed" : [
+            {
+                "id" : 1,
+                "apps" : "Instagram",
+                "username" : "https://instagram.com/agungmahadana_"
+            },
+            {
+                "id" : 2,
+                "apps" : "Github",
+                "username" : "agungmahadana"
+            },
+            {
+                "id" : 3,
+                "apps" : "Linkedin",
+                "username" : "https://linkedin.com/in/agungmahadana"
+            }
+        ]
+    },
+    {
+        "id" : 4,
+        "img" : "design/aris.png",
+        "name" : "I Gede Arisudana Samanjaya",
+        "position" : "SIC Design Member",
+        "sosmed" : [
+            {
+                "id" : 1,
+                "apps" : "Instagram",
+                "username" : "https://www.instagram.com/arisamanjaya/"
+            },
+            {
+                "id" : 2,
+                "apps" : "Github",
+                "username" : "Arisamanjaya"
+            },
+            {
+                "id" : 3,
+                "apps" : "Linkedin",
+                "username" : "https://www.linkedin.com/in/arisamanjaya/"
+            }
+        ]
+    },
+    {
+        "id" : 5,
+        "img" : "design/rizher.png",
+        "name" : "I Gede Rizki Heriana Prayoga",
+        "position" : "SIC Design Member",
+        "sosmed" : [
+            {
+                "id" : 1,
+                "apps" : "Instagram",
+                "username" : "https://instagram.com/gederizki"
+            },
+            {
+                "id" : 2,
+                "apps" : "Github",
+                "username" : "RIZHER"
+            },
+            {
+                "id" : 3,
+                "apps" : "Linkedin",
+                "username" : "http://linkedin.com/in/rizher"
+            }
+        ]
+    },
+    {
+        "id" : 6,
+        "img" : "design/herdy.png",
+        "name" : "I Putu Herdy Juniawan",
+        "position" : "SIC Design Member",
+        "sosmed" : [
+            {
+                "id" : 1,
+                "apps" : "Instagram",
+                "username" : "https://instagram.com/hrdyxd_"
+            },
+            {
+                "id" : 2,
+                "apps" : "Github",
+                "username" : "HrdyXD"
+            },
+            {
+                "id" : 3,
+                "apps" : "Linkedin",
+                "username" : "https://linkedin.com/in/herdyxd"
+            }
+        ]
+    },
+    {
+        "id" : 7,
+        "img" : "design/yuki.png",
+        "name" : "Putu Yuki Parmawati",
+        "position" : "SIC Design Member",
+        "sosmed" : [
+            {
+                "id" : 1,
+                "apps" : "Instagram",
+                "username" : "https://instagram.com/yk_parma"
+            },
+            {
+                "id" : 2,
+                "apps" : "Github",
+                "username" : "neveca"
+            },
+            {
+                "id" : 3,
+                "apps" : "Linkedin",
+                "username" : "https://linkedin.com/in/putu-yuki-parmawati-354b5b252"
+            }
+        ]
+    },
+    {
+        "id" : 8,
+        "img" : "design/rian.png",
+        "name" : "I Gusti Ngurah Adriantara N.",
+        "position" : "SIC Design Member",
+        "sosmed" : [
+            {
+                "id" : 1,
+                "apps" : "Instagram",
+                "username" : "https://instagram.com/adrian.tara"
+            },
+            {
+                "id" : 2,
+                "apps" : "Github",
+                "username" : "atelier-haipa"
+            },
+            {
+                "id" : 3,
+                "apps" : "Linkedin",
+                "username" : "https://linkedin.com/in/adriantara"
+            }
+        ]
+    },
+    {
+        "id" : 9,
+        "img" : "design/dita.png",
+        "name" : "Ni Putu Dita Ari Pratiwi",
+        "position" : "SIC Design Member",
+        "sosmed" : [
+            {
+                "id" : 1,
+                "apps" : "Instagram",
+                "username" : "https://instagram.com/ditaar.i/"
+            },
+            {
+                "id" : 2,
+                "apps" : "Github",
+                "username" : "Aeitavory"
+            },
+            {
+                "id" : 3,
+                "apps" : "Linkedin",
+                "username" : "https://linkedin.com/in/dita-ari/"
+            }
+        ]
+    },
+    {
+        "id" : 10,
+        "img" : "design/prana.png",
+        "name" : "Made Pranajaya Dibyacita",
+        "position" : "SIC Design Member",
+        "sosmed" : [
+            {
+                "id" : 1,
+                "apps" : "Instagram",
+                "username" : "https://instagram.com/mdprana/"
+            },
+            {
+                "id" : 2,
+                "apps" : "Github",
+                "username" : "mdprana"
+            },
+            {
+                "id" : 3,
+                "apps" : "Linkedin",
+                "username" : "https://linkedin.com/in/mdprana/"
+            }
+        ]
+    }
+]
