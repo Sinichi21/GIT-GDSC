@@ -1,6 +1,7 @@
 [
     {
         "id" : 1,
+        "img" : "growth/kenny.png",
         "name" : "Kenny Belle Lesmana",
         "position" : "SIC Growth Lead",
         "sosmed" : [
@@ -23,6 +24,7 @@
     },
     {
         "id" : 2,
+        "img" : "growth/sandrina.png",
         "name" : "Sandrina Ferani Aisyah Putri",
         "position" : "SIC Growth Member",
         "sosmed" : [
@@ -45,6 +47,7 @@
     },
     {
         "id" : 3,
+        "img" : "growth/kamel.png",
         "name" : "Kameliya Putri",
         "position" : "SIC Growth Member",
         "sosmed" : [
@@ -67,6 +70,7 @@
     },
     {
         "id" : 4,
+        "img" : "growth/ryan.png",
         "name" : "I Made Ryan Prana Dhita",
         "position" : "SIC Growth Member",
         "sosmed" : [
@@ -89,6 +93,7 @@
     },
     {
         "id" : 5,
+        "img" : "growth/krismeg.png",
         "name" : "I Putu Krisna Megadana",
         "position" : "SIC Growth Member",
         "sosmed" : [
@@ -111,6 +116,7 @@
     },
     {
         "id" : 6,
+        "img" : "growth/maheza.png",
         "name" : "I Komang Maheza Yudistia",
         "position" : "SIC Growth Member",
         "sosmed" : [
@@ -133,6 +139,7 @@
     },
     {
         "id" : 7,
+        "img" : "growth/arista.png",
         "name" : "I Nyoman Arista Wisnawa",
         "position" : "SIC Growth Member",
         "sosmed" : [
@@ -155,6 +162,7 @@
     },
     {
         "id" : 8,
+        "img" : "growth/treshnanda.png",
         "name" : "I Made Treshnanda Mas",
         "position" : "SIC Growth Member",
         "sosmed" : [
@@ -177,6 +185,7 @@
     },
     {
         "id" : 9,
+        "img" : "growth/wina.png",
         "name" : "Kadek Wina Septhiana",
         "position" : "SIC Growth Member",
         "sosmed" : [
@@ -199,6 +208,7 @@
     },
     {
         "id" : 10,
+        "img" : "growth/wahyu.png",
         "name" : "Komang Wahyu Agastya",
         "position" : "SIC Growth Member",
         "sosmed" : [

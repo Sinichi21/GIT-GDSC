@@ -1,5 +1,6 @@
 import { useAccordionButton, Button, AccordionContext } from 'react-bootstrap';
 import { useContext } from 'react';
+import { motion } from 'framer-motion';
 
 import style from 'styles/Club.module.css';
 
@@ -14,13 +15,15 @@ export default function Toggle({ children, eventKey, callback }){
     const isCurrentEventKey = activeEventKey === eventKey;
     
     return(
-        <Button 
-            className = {`${isCurrentEventKey ? style.btn_club : style.btn_club_idle} py-3 px-4 px-sm-0 fw-bold mb-1 mb-sm-2 rounded-pill`}
-            type = "button"
-            onClick = { isCurrentEventKey ? null : decoratedOnClick }
+        <motion.button
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            type = 'button'
+                className = {`${isCurrentEventKey ? style.btn_club : style.btn_club_idle} py-lg-3  fw-bold mb-1 mb-sm-2 rounded-pill`}
+                onClick = { isCurrentEventKey ? null : decoratedOnClick }
         >
             { children }
 
-        </Button>
+        </motion.button>
     )
 }

@@ -6,6 +6,21 @@
   --abu: #718096 !important;
 }
 
+html,body{
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+body{
+  position: relative;
+}
+.swiper-wrapper{
+  transition-timing-function: linear !important;
+  position: relative;
+  user-select: none;
+  -webkit-touch-callout: none;
+  backface-visibility: hidden;
+}
+
 * {
   font-family: 'Inter', sans-serif;
 }
@@ -51,3 +66,16 @@
   .swiper-button-prev::after {
     display: none;
   }
+
+
+@media screen and (max-width: 700px){
+  h1{
+    font-size: 28px !important;
+  }
+  h2{
+    font-size: 24px !important;
+  }
+  p, .p-list{
+    font-size: 15px !important;
+  }
+}

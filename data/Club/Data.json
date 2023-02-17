@@ -83,30 +83,35 @@
             },
             {
                 "id" : 3,
-                "name" : "React JS",
-                "img" : "react.png"
+                "name" : "MySQL",
+                "img" : "mysql.png"
             },
             {
-                "id" : 4,
-                "name" : "Next JS",
-                "img" : "nextjs.png"
+                "id" : 40,
+                "name" : "Node.js",
+                "img" : "nodejs.png"
             },
             {
-                "id" : 5,
-                "name" : "Discord",
-                "img" : "Discord.png"
+                "id" : 41,
+                "name" : "Express.js",
+                "img" : "express.png"
             },
             {
                 "id" : 11,
                 "name" : "Golang",
                 "img" : "Golang.png"
+            },
+            {
+                "id" : 5,
+                "name" : "Discord",
+                "img" : "Discord.png"
             }
         ]
     },
 
     {
         "key" : "3",
-        "clubs" : "Data Science",
+        "clubs" : "Data",
         "nama" : "Putu Widyantara Artanta W.",
         "phone" : "085338391881",
         "line" : "putu_waw",

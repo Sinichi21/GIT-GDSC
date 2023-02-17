@@ -7,6 +7,7 @@ import style from 'styles/Navbar.module.css';
 
 export default function NavigationBar() {
     const [isSticky , setSticky] = useState(false);
+    const Year = new Date().getFullYear();
 
     useEffect(() => {
         const scrollListener = () => {
@@ -21,7 +22,7 @@ export default function NavigationBar() {
         <Navbar 
             key = "md" 
             expand="md" 
-            sticky = "top" 
+            fixed = "top" 
             className = {`p-0 bg-white border-bottom ${isSticky ? 'border-bottom' : ''}`}
         >
             <Container>
@@ -35,7 +36,15 @@ export default function NavigationBar() {
                     />
                 </Navbar.Brand>
 
-                <Navbar.Toggle aria-controls = 'offcanvasNavbar-expand-lg' />
+                <Navbar.Toggle aria-controls="offcanvasNavbar-expand-lg" 
+                    style = {{
+                        border : 'none' ,
+                        background : 'none' ,
+                        outline : 'none' ,
+                        boxShadow : 'none' ,
+                        color : '#000' ,
+                    }}
+                />
 
                 <Navbar.Offcanvas 
                     id = 'offcanvasNavbar-expand-lg' 
@@ -56,6 +65,11 @@ export default function NavigationBar() {
                     
                     <Offcanvas.Body>
                         <NavLink />
+                        <div className = "d-sm-none d-block text-center fixed-bottom p-3">
+                            <small className = "text-muted">
+                                &copy; { Year } SIC UNUD
+                            </small>
+                        </div>
                     </Offcanvas.Body>
 
                 </Navbar.Offcanvas>

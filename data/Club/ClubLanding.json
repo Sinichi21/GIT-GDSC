@@ -1,13 +1,13 @@
 [
     {
-        "id" : 2,
-        "nama" : "Back End",
-        "image" : "backend.png"
-    },
-    {
         "id" : 1,
         "nama" : "Front End",
         "image" : "frontend.png"
+    },
+    {
+        "id" : 2,
+        "nama" : "Back End",
+        "image" : "backend.png"
     },
     {
         "id" : 3,
@@ -15,19 +15,9 @@
         "image" : "data.png"
     },
     {
-        "id" : 6,
-        "nama" : "Business",
-        "image" : "business.png"
-    },
-    {
         "id" : 4,
         "nama" : "Dev Ops",
         "image" : "devops.png"
-    },
-    {
-        "id" : 7,
-        "nama" : "IOT",
-        "image" : "iot.png"
     },
     {
         "id" : 5,
@@ -35,9 +25,19 @@
         "image" : "mobile.png"
     },
     {
+        "id" : 6,
+        "nama" : "Business",
+        "image" : "business.png"
+    },
+    {
+        "id" : 7,
+        "nama" : "IOT",
+        "image" : "iot.png"
+    },
+    {
         "id" : 8,
         "nama" : "UI UX",
-        "image" : "ui.png"
+        "image" : "uiux.png"
     },
     {
         "id" : 9,
