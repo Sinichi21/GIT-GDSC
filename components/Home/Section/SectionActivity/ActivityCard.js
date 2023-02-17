@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 import React, { useState } from 'react';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
@@ -59,7 +58,6 @@ export default function ActivityCard(props) {
       <Card.Img 
         variant = 'top' 
         src = { `/assets/activity/${props.data.img}` } 
-        alt = {props.data.title}
       />
       <Card.Body 
         className = 'px-0'

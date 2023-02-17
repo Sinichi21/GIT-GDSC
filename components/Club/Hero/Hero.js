@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
 import Image from "next/legacy/image";
 
 import { Button, Col, Container, Row } from "react-bootstrap";
@@ -9,7 +8,6 @@ export default function HeroClubs(){
             fluid 
             className = "d-flex justify-content-center align-items-center"
             style = {{ height: "80vh" }}
-            id = "Home"
         >
             <Container>
                 <Row>
@@ -23,7 +21,7 @@ export default function HeroClubs(){
                             priority
                         />
                     </Col>
-                    <Col lg = {5} className = 'm-auto text-sm-start'>
+                    <Col lg = {5} className = 'm-auto text-center text-sm-start'>
                         <Col lg = {10} className = 'pb-3'>
                             <h1 
                                 className = 'text-black-sic' 

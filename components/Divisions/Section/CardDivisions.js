@@ -1,7 +1,9 @@
-import Image from "next/legacy/image";
+import Image from "next/image";
 
-import { Col } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 import { BsInstagram, BsGithub, BsLinkedin } from "react-icons/bs";
+
+import styles from "styles/Divisions.module.css";
 
 export default function CardDivisions(props) {
     return (
@@ -17,12 +19,12 @@ export default function CardDivisions(props) {
                     src={`/assets/section/divisions/${props.img}`}
                     alt={props.nama}
                     layout="responsive"
-                    width = { props.width  || 100 }
-                    height = { props.height || 120 }
+                    width={0}
+                    height={0}
                 />
             </Col>
             <Col>
-                <div>
+                <div className={`${styles.description} `}>
                     <h5 className="fw-bold my-auto text-black-sic" style={{ fontSize: '16px' }}>{props.nama}</h5>
                     <small className="my-auto text-abu-sic">{props.jabatan}</small>
                 </div>

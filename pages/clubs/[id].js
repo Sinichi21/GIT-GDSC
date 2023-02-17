@@ -47,7 +47,7 @@ export default function SicClubs() {
                             <Row className='align-items-start'>
                                 <Col
                                     lg={4} md={4}
-                                    className={`${style.coloumn_club} pb-5 pb-sm-0`}
+                                    className={`${style.coloumn_club} `}
                                 >
                                     <div className={`${style.coloumn_club_child} px-sm-5 pb-sm-5 d-flex d-sm-block`}>
                                         {

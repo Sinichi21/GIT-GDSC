@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 import { Col, Accordion, Card, useAccordionButton, AccordionContext } from 'react-bootstrap';
 import { useContext } from 'react';
 
@@ -16,9 +15,9 @@ function ContextAwareToggle({ children, eventKey, callback }) {
         onClick={decoratedOnClick}
       >
         {isCurrentEventKey ? (
-          <img src='/assets/activity/min-button.svg' alt='icon min button' />
+          <img src='/assets/activity/min-button.svg' alt='' />
         ) : (
-          <img src='/assets/activity/plus-button.svg' alt='icon plus button' />
+          <img src='/assets/activity/plus-button.svg' alt='' />
         )}
       </button>
     </>
@@ -27,11 +26,11 @@ function ContextAwareToggle({ children, eventKey, callback }) {
 
 export default function CardFaq(props) {
   return (
-    <Col >
+    <Col lg={6}>
       <div className='mb-3'>
         <Card border='light' style={{ backgroundColor: '#F7FAFF' }}>
           <Card.Header
-            className='d-flex align-items-center gap-2'
+            className='d-flex align-items-center'
             style={{
               backgroundColor: 'inherit',
               border: '0px',
