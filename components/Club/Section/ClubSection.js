@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 
 import axios from 'axios';
 import { Col, Container, Row, Accordion } from "react-bootstrap";
+import { motion } from "framer-motion";
 
 import Toggle from './Toggle';
 import ClubLeadCard from './ClubLeadCard';
@@ -29,10 +30,10 @@ export default function ClubSection() {
                 <Accordion defaultActiveKey = "0">
                     <Row className = 'align-items-start'>
                         <Col 
-                            lg = {4} md = { 4 }
+                            lg = {4} md = {12}
                             className={`${style.coloumn_club} `}
                         >
-                            <div className = {`${style.coloumn_club_child} px-sm-5 pb-sm-5 d-flex d-sm-block`}>
+                            <div className = {`${style.coloumn_club_child} px-sm-5 pb-sm-5 d-flex`}>
                                 {
                                     Club.map((data, index) => {
                                         return(
@@ -49,7 +50,7 @@ export default function ClubSection() {
                         </Col>
 
                         <Col 
-                            lg = { 8 } md = { 8 }
+                            lg = { 8 } md = {12}
                             className = 'px-sm-5'
                         >
                             <div className = 'px-4'>

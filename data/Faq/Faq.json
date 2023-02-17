@@ -7,46 +7,78 @@
   {
     "id": 2,
     "question": "How to join as a SIC functionary?",
-    "answer": "Those who can join as SIC functionaries are active students at the Udayana University informatics study program, the two youngest batches who have an interest in technology, especially IT. For example, currently, the SIC is for the 2023 period, so the two youngest batches that can only be joined are 2022 and 2021."
+    "answer": "How to join as a SIC functionary is certainly an active student of the Informatics study program who has an interest in technology, especially IT. Then wait for open recruitment info and follow the next stages, and later wait for the announcement of the interview selection results."
   },
   {
     "id": 3,
-    "question": "How to join as a SIC functionary?",
+    "question": "Can other than SIC administrators join the SIC Club?",
     "answer": "Those who can join as SIC functionaries are active students at the Udayana University informatics study program, the two youngest batches who have an interest in technology, especially IT. For example, currently, the SIC is for the 2023 period, so the two youngest batches that can only be joined are 2022 and 2021."
   },
   {
     "id": 4,
     "question": "How to join the SIC Club?",
-    "answer": "Those who can join as SIC functionaries are active students at the Udayana University informatics study program, the two youngest batches who have an interest in technology, especially IT. For example, currently, the SIC is for the 2023 period, so the two youngest batches that can only be joined are 2022 and 2021."
+    "answer": "All active Informatics students can join the selected SIC Club by filling out the form provided in advance on the Discord community and then confirming the contact of the selected lead club."
   },
   {
     "id": 5,
     "question": "What are the benefits when joining the SIC Club?",
-    "answer": "Those who can join as SIC functionaries are active students at the Udayana University informatics study program, the two youngest batches who have an interest in technology, especially IT. For example, currently, the SIC is for the 2023 period, so the two youngest batches that can only be joined are 2022 and 2021."
+    "answer": "The benefits you get when you join the SIC Club are being able to develop potential through each club to prepare yourself in the industrial world. Apart from that, you can also study together, discuss, and collaborate with members who are members of the SIC Club."
   },
   {
     "id": 6,
     "question": "Is it possible to join more than one SIC Club?",
-    "answer": "Those who can join as SIC functionaries are active students at the Udayana University informatics study program, the two youngest batches who have an interest in technology, especially IT. For example, currently, the SIC is for the 2023 period, so the two youngest batches that can only be joined are 2022 and 2021."
+    "answer": "Of course, it is permissible to join more than one SIC Club, because some students have an interest or want to develop their potential not only to focus on one club but more than one club. Besides that, it also makes it easier for students who don't know their passion to try to join several clubs so that later they can find their passion."
   },
   {
     "id": 7,
     "question": "Can other than SIC administrators contribute to making Immerse Projects at SIC?",
-    "answer": "Those who can join as SIC functionaries are active students at the Udayana University informatics study program, the two youngest batches who have an interest in technology, especially IT. For example, currently, the SIC is for the 2023 period, so the two youngest batches that can only be joined are 2022 and 2021."
+    "answer": "Of course, all SIC members can contribute to immerse projects and mini projects"
   },
   {
     "id": 8,
     "question": "How to join the external sharing session held by SIC?",
-    "answer": "Those who can join as SIC functionaries are active students at the Udayana University informatics study program, the two youngest batches who have an interest in technology, especially IT. For example, currently, the SIC is for the 2023 period, so the two youngest batches that can only be joined are 2022 and 2021."
+    "answer": "How to take part in the external sharing session held by SIC, of course, you must first register on the google form that has been provided in the announcement that has been disseminated on SIC social media. After registering, you will get an email to join according to the schedule stated in the sharing session in the form of a google meeting link."
   },
   {
     "id": 9,
     "question": "Who can contribute to stack activities?",
-    "answer": "Those who can join as SIC functionaries are active students at the Udayana University informatics study program, the two youngest batches who have an interest in technology, especially IT. For example, currently, the SIC is for the 2023 period, so the two youngest batches that can only be joined are 2022 and 2021."
+    "answer" : [
+      {
+        "id" : 1,
+        "list" : "All active Informatics students can contribute to being participants who take part in STACK. This is because the theme presented is related to Informatics. When there are Informatics students who want to add knowledge and practice directly (or review the material they have obtained) of course they can take part in STACK."
+      },
+      {
+        "id" : 2,
+        "list" : "Contributions as a committee are SIC administrators and if more committees are needed, it can take SIC members to participate in the committee."
+      },
+      {
+        "id" : 3,
+        "list" : "If deemed possible, participants who can take part in STACK can also be students outside of Informatics or are called general participants."
+      }
+    ]
+    
+    
   },
   {
     "id": 10,
     "question": "How are the procedures for participating in the competition spread by SIC?",
-    "answer": "Those who can join as SIC functionaries are active students at the Udayana University informatics study program, the two youngest batches who have an interest in technology, especially IT. For example, currently, the SIC is for the 2023 period, so the two youngest batches that can only be joined are 2022 and 2021."
+    "answer":[
+      {
+        "id" : 1,
+        "list" : "SIC deploys a Google Form for Informatics students to fill out Google From contains competitions that will be participated in and/or teams that will take part."
+      },
+      {
+        "id" : 2,
+        "list" : "Prospective competition participants contact the CP on IG SIC or Google Form Prospective participants confirm that they have filled out the form to take part in the competition."
+      },
+      {
+        "id" : 3,
+        "list" : "CP provides confirmation to prospective participants Confirmation in the form of information on the acceptance/rejection of the competition that will be participated by prospective participants."
+      },
+      {
+        "id" : 4,
+        "list" : "Creation of training groups The PIC of the competition forms a training group with the participants of the competition which is used to coordinate the training schedule and mentors for the competitions that are followed."
+      }
+    ]
   }
 ]

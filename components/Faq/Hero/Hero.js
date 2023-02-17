@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Image from "next/legacy/image";
 import { Col, Container, Row } from "react-bootstrap";
 
@@ -8,6 +9,7 @@ export default function HeroFaq() {
     <Container
       fluid
       className={` ${style.hero_faq} d-flex justify-content-center align-items-center `}
+      id = "Home"
     >
       <Container className='pt-4'>
         <Row>
@@ -16,11 +18,11 @@ export default function HeroFaq() {
             xs={{ order: 'last' }} 
             className='m-auto py-lg-0 py-5'
           >
-            <h1 className = {`text-white fw-medium ${style.hero_faq_title}`}>
-              Frequently Asked <span className='fw-bolder'>Question</span>
+            <h1 className = "text-white fw-medium" style = {{ fontSize: "48px"}}>
+              Frequently Asked <span style = {{fontWeight: 900}}>Question</span>
             </h1>
             <Col lg={10} className='py-3 lh-lg'>
-              <p className='fs-5' style={{ lineHeight: '1.5' }}>
+              <p style={{ lineHeight: '1.5', fontSize: '18px' }}>
                 You're still curious about SIC? You're in luck! The FAQ allows you to get answers to
                 your questions. Let's find your question right here!
               </p>

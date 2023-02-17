@@ -21,6 +21,7 @@ export default function NotFound(){
                                     layout = 'responsive'
                                     width = { 20 }
                                     height = { 13 }
+                                    alt = "404 Image"
                                 />
                                 <div className = 'py-5'>
                                     <p className = 'fw-bold'>

@@ -46,10 +46,10 @@ export default function SicClubs() {
                         <Accordion defaultActiveKey = { id || "1" }>
                             <Row className='align-items-start'>
                                 <Col
-                                    lg={4} md={4}
-                                    className={`${style.coloumn_club} `}
+                                    lg={4}
+                                    className={`${style.coloumn_club} pb-5 pb-sm-0`}
                                 >
-                                    <div className={`${style.coloumn_club_child} px-sm-5 pb-sm-5 d-flex d-sm-block`}>
+                                    <div className={`${style.coloumn_club_child} ps-lg-5 pb-lg-5 d-flex gap-4 gap-md-4 d-lg-block`}>
                                         {
                                             Club.map((data, index) => {
                                                 return (
@@ -66,10 +66,10 @@ export default function SicClubs() {
                                 </Col>
 
                                 <Col
-                                    lg={8} md={8}
-                                    className='px-sm-5'
+                                    lg={8}
+                                    className={`px-sm-5 pb-5 ${style.coloumn_lead_card}`}
                                 >
-                                    <div className='px-4'>
+                                    <div className="px-4">
                                         {
                                             Club.map((data, index) => {
                                                 return (
