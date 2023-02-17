@@ -41,7 +41,7 @@ export default function ClubLeadCard( props ){
                 <div className = 'd-block text-center d-sm-flex align-items-center gap-2 text-secondary pb-3'>
                         <a href = {`https://api.whatsapp.com/send?phone=${ FormatPhoneNumber(props.phone) }`} 
                             className = 'text-decoration-none ps-sm-0 ps-2'
-                            target = "_blank" rel="noreferrer"
+                            target = "_blank"
                         >
                             <div className = "d-block d-sm-flex gap-2 align-items-center text-primary-sic">
                                 <BsWhatsapp className = "me-2 me-sm-0" />

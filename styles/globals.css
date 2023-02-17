@@ -6,13 +6,6 @@
   --abu: #718096 !important;
 }
 
-body{
-  overflow-x: hidden;
-}
-.swiper-wrapper{
-  transition-timing-function: linear !important;
-}
-
 * {
   font-family: 'Inter', sans-serif;
 }
@@ -58,16 +51,3 @@ body{
   .swiper-button-prev::after {
     display: none;
   }
-
-
-@media screen and (max-width: 700px){
-  h1{
-    font-size: 28px !important;
-  }
-  h2{
-    font-size: 24px !important;
-  }
-  p{
-    font-size: 15px !important;
-  }
-}
