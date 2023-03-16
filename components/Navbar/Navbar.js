@@ -3,10 +3,13 @@ import { useEffect, useState } from 'react';
 import { Container , Navbar , Offcanvas } from 'react-bootstrap';
 import NavLink from './NavLink';
 
+import { motion } from 'framer-motion';
+
 import style from 'styles/Navbar.module.css';
 
 export default function NavigationBar() {
     const [isSticky , setSticky] = useState(false);
+    const Year = new Date().getFullYear();
 
     useEffect(() => {
         const scrollListener = () => {
@@ -21,7 +24,7 @@ export default function NavigationBar() {
         <Navbar 
             key = "md" 
             expand="md" 
-            sticky = "top" 
+            fixed = "top" 
             className = {`p-0 bg-white border-bottom ${isSticky ? 'border-bottom' : ''}`}
         >
             <Container>
@@ -34,13 +37,28 @@ export default function NavigationBar() {
                         className = 'p-0' 
                     />
                 </Navbar.Brand>
-
-                <Navbar.Toggle aria-controls = 'offcanvasNavbar-expand-lg' />
+                
+                <motion.div
+                    whileHover={{ scale: 1 }}
+                    whileTap={{ scale: 0.7 }}
+                    type='button'
+                    style={{ border: 'none', backgroundColor: 'transparent' }}
+                >
+                    <Navbar.Toggle aria-controls="offcanvasNavbar-expand-lg" 
+                        style = {{
+                            border : 'none' ,
+                            background : 'none' ,
+                            outline : 'none' ,
+                            boxShadow : 'none' ,
+                            color : '#000' ,
+                        }}
+                    />
+                </motion.div>
 
                 <Navbar.Offcanvas 
                     id = 'offcanvasNavbar-expand-lg' 
                     aria-labelledby = 'offcanvasNavbarLabel-expand-lg' 
-                    placement="end" 
+                    placement = "end"
                     className = {style.mobile_navbar}
                 >
                     <Offcanvas.Header closeButton>
@@ -56,11 +74,15 @@ export default function NavigationBar() {
                     
                     <Offcanvas.Body>
                         <NavLink />
+                        <div className = "d-sm-none d-block text-center fixed-bottom p-3">
+                            <small className = "text-muted">
+                                &copy; { Year } SIC UNUD
+                            </small>
+                        </div>
                     </Offcanvas.Body>
 
                 </Navbar.Offcanvas>
             </Container>
         </Navbar>
-
     );
 }

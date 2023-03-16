@@ -3,14 +3,15 @@
   outline: none;
   border: none;
   color: #63A8E7;
-  width: 60%;
+  width: 60% !important;
   transition: all .3s ease-out;
-  white-space: nowrap;
+  transition: .3s ease-out;
 }
 
 .btn_club:hover{
   background-color: #EBF8FF;
   color: #63A8E7;
+  transition: .3s ease-in;
 }
 
 .btn_club_idle{
@@ -20,7 +21,6 @@
   white-space: nowrap;
 }
 .btn_club_idle:hover{
-  background-color: rgba(235, 248, 255, 0.5);
   color: #63A8E7;
   border-radius: 100px;
 }
@@ -32,13 +32,7 @@
 }
 
 .card_tools{
-  box-shadow: 0px 2px 3px -0.5px rgba(0, 0, 0, 0.1), 0px 1px 2px -0.5px rgba(0, 0, 0, 0.06);
-  transition: .2s ease-out;
-}
-.card_tools:hover{
-  background-color: #EBF8FF!important;
-  transition: .2s ease-in;
-  scale: 1.1;
+  box-shadow: 0px 0.5px 2px -0.5px rgba(0, 0, 0, 0.15), 0px 2px 3px -0.5px rgba(0, 0, 0, 0.1);
 }
 
 .text_tools{
@@ -47,15 +41,17 @@
 }
 
 
-@media screen and (min-width: 728px) {
-  .coloumn_club_child{
-    border-right: dashed 3px #CFCFCF;
+@media screen and (min-width: 1024px) {
+  .coloumn_lead_card{
+    border-left: dashed 3px #CFCFCF;
   }
 }
 
-@media screen and (max-width: 728px){
-  .btn_club{
-    width: 100%;
+@media screen and (max-width: 1024px){
+  .btn_club, .btn_club_idle{
+    width: 100% !important;
+    white-space: nowrap;
+    padding: 15px 25px;
   }
   .coloumn_club{
     box-sizing: border-box;

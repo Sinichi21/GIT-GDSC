@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-import { Container, Row, Accordion } from 'react-bootstrap';
+import { Container, Row, Col, Accordion } from 'react-bootstrap';
 import axios from 'axios';
 
 import CardFaq from './CardFaq';
@@ -27,11 +27,30 @@ export default function SectionFaq() {
       <Container className='py-5'>
         <Accordion flush>
           <Row>
-            {
-              faq.map((data, index) => {
-                return <CardFaq key={index} data={data} />;
-              })
-            }
+            <Col lg={6}>
+              {
+                faq.map((data, index) => {
+                  return (
+                    data.id % 2 === 1 ?
+                      <CardFaq key={index} data={data} />
+                      :
+                      null
+                  )
+                })
+              }
+            </Col>
+            <Col lg={6}>
+              {
+                faq.map((data, index) => {
+                  return (
+                    data.id % 2 === 0 ?
+                      <CardFaq key = { index } data = { data } />
+                      :
+                      null
+                  )
+                })
+              }
+            </Col>
           </Row>
         </Accordion>
       </Container>

@@ -1,64 +1,51 @@
 /* Hero */
-    .hero_division_page{
-        background-image: url("../public/assets/divisions/hero.png");
-        background-size: cover;
-        background-color: '#495375';
-        background-position: center;
-        min-height: 92vh;
-        object-fit: cover;
-        padding-bottom: 50px;
-    }
-
-    .hero_division_page h1{
-        color: white;
-        font-weight: 800;
-        font-size: 48px;
-    }
-    
-    .hero_division_page p{
-        color: #C7D3FC;
-        font-weight: 500;
-        font-size: 18px;
-        max-width: 85%;
-        margin: auto;
-        padding-top: 10px;
-    }
-
-    @media screen and (max-width: 1200px) {
-        .hero_division_page{
-            min-height: 55vh;
-            padding-bottom: 0px;
-        }
-        .hero_division_page h1{
-            font-weight: 800;
-            font-size: 40px;
-        }
-        .hero_division_page p{
-            font-weight: 500;
-            font-size: 16px;
-            padding: 10px;
-        }
-    }
-
-    @media screen and (max-width: 768px){
-        .hero_division_page{
-            min-height: 38vh;
-        }
-        .hero_division_page h1{
-            font-size: 32px;
-        }
-        .hero_division_page p{
-            font-size: 14px;
-            line-height: 22px;
-            padding-top: 0px;
-        }
-    }
-/* END OF HERO */
-
-.person_card {
-    text-decoration: none;
-    color: var(--abu);
-    font-size: 1.125rem;
-    border: 1px solid black;
-    max-width: 16.5625rem;
+.hero_division_page{
+    background: url("/assets/divisions/hero.png") fixed;
+    background-size: cover;
+    background-color: '#495375';
+    background-position: center top;
+    min-height: 100vh;
+    object-fit: cover;
 }
+
+.hero_division_page h1{
+    color: white;
+    font-weight: 800;
+    font-size: 48px;
+}
+
+.hero_division_page p{
+    color: #C7D3FC;
+    font-weight: 500;
+    font-size: 18px;
+    margin: auto;
+    padding-top: 10px;
+    line-height: 1.6 !important;
+}
+
+@media screen and (max-width: 1200px) {
+    .hero_division_page{
+        padding-bottom: 0px;
+    }
+    .hero_division_page h1{
+        font-weight: 800;
+        font-size: 40px;
+    }
+    .hero_division_page p{
+        font-weight: 500;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .hero_division_page{
+        min-height: 85vh;
+    }
+    .hero_division_page h1{
+        font-size: 32px;
+    }
+    .hero_division_page p{
+        padding-top: 0px;
+    }
+}
+/* END OF HERO */

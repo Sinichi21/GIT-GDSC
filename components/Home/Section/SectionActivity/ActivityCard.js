@@ -1,6 +1,7 @@
+/* eslint-disable @next/next/no-img-element */
 import React, { useState } from 'react';
 import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
+import { motion } from 'framer-motion';
 import style from 'styles/LandingPage.module.css';
 
 // Component to return sliced text (read more, show less functionality) using hooks
@@ -22,19 +23,28 @@ const ReadMore = ({ children }) => {
           color: '#C7D3FC' 
         }}
       >
-        { isReadMore ? text.slice(0, 130) + "......" : text }
+        { isReadMore ? text.slice(0, 130) + "......" : 
+          <motion.div
+            initial = {{ opacity: 0 }}
+            animate = {{ opacity: 1 }}
+            transition = {{ duration: 0.5 }}
+          >
+            { text }
+          </motion.div>
+        }
       </Card.Text>
       <div 
         className='d-flex justify-content-end'
       >
-        <Button
+        <motion.button
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.9 }} 
           onClick = { toggleReadMore }
           style = {{ 
             fontSize: '12px', 
-            fontWeight: '500' 
+            fontWeight: '500' ,
           }}
-          variant = "transparent"
-          className = "text-white"
+          className = "text-white border-0 bg-transparent"
         >
           { isReadMore ? 'Show More' : 'Show Less' }
           { 
@@ -44,7 +54,7 @@ const ReadMore = ({ children }) => {
               <img className='ms-1' src='/assets/activity/show-less.png' alt = 'button less' />
             )
           }
-        </Button>
+        </motion.button>
       </div>
     </>
   );
@@ -58,6 +68,7 @@ export default function ActivityCard(props) {
       <Card.Img 
         variant = 'top' 
         src = { `/assets/activity/${props.data.img}` } 
+        alt = {props.data.title}
       />
       <Card.Body 
         className = 'px-0'
