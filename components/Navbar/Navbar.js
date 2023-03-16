@@ -54,7 +54,6 @@ export default function NavigationBar() {
                         }}
                     />
                 </motion.div>
-
                 <Navbar.Offcanvas 
                     id = 'offcanvasNavbar-expand-lg' 
                     aria-labelledby = 'offcanvasNavbarLabel-expand-lg' 

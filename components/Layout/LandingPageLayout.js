@@ -3,11 +3,13 @@ import { Container } from 'react-bootstrap';
 import HeroLandingPage from 'components/Home/Hero/Hero';
 import SectionWhat from 'components/Home/Section/SectionWhat/SectionWhat';
 import Activity from 'components/Home/Section/SectionActivity/Activity';
+
 import SectionClub from 'components/Home/Section/SectionClub/SectionClub';
 import SectionQuestion from 'components/Home/Section/SectionQuestion/SectionQuestion';
 import SectionExisted from 'components/Home/Section/SectionWhySICExisted/SectionExisted';
 
 import style from 'styles/LandingPage.module.css';
+import SectionExisted from '../Home/Section/SectionWhySICExisted/SectionExisted';
 
 export default function LandingPage() {
   return (

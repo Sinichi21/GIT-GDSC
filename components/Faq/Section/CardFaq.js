@@ -10,6 +10,7 @@ function ContextAwareToggle({ children, eventKey, callback }) {
 
   return (
     <>
+
       <motion.button
         className = 'd-flex align-items-center justify-content-between w-100 align-items-center gap-3 px-0'
         whileHover={{ scale: 1 }}
