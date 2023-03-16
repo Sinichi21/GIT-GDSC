@@ -10,14 +10,23 @@ function ContextAwareToggle({ children, eventKey, callback }) {
 
   return (
     <>
-      {children}
+
       <motion.button
-        whileHover={{ scale: 1.3 }}
-        whileTap={{ scale: 1 }}
+        className = 'd-flex align-items-center justify-content-between w-100 align-items-center gap-3 px-0'
+        whileHover={{ scale: 1 }}
+        whileTap={{ scale: 0.9 }}
         type='button'
-        style={{ border: 'none', backgroundColor: 'transparent', marginLeft: 'auto' }}
+        style={{ border: 'none', backgroundColor: 'transparent' }}
         onClick={decoratedOnClick}
       >
+       <p className = 'my-auto text-start' 
+          style = {{
+            color: "#2D3748", 
+            fontWeight: 600
+          }}
+        > 
+          {children} 
+        </p>
         {isCurrentEventKey ? (
           <img src='/assets/activity/min-button.svg' alt='icon min button' />
         ) : (
@@ -34,18 +43,13 @@ export default function CardFaq(props) {
       <div className='mb-3'>
         <Card border='light' style={{ backgroundColor: '#F7FAFF' }}>
           <Card.Header
-            className='d-flex align-items-center gap-2'
             style={{
               backgroundColor: 'inherit',
-              border: '0px',
-              fontWeight: '600',
-              color: '#2D3748',
+              border: '0px'
             }}
           >
             <ContextAwareToggle eventKey={props.data.id}>
-              <p className = 'my-auto'>
                 {props.data.question}
-              </p>
             </ContextAwareToggle>
           </Card.Header>
           <Accordion.Collapse eventKey={props.data.id}>

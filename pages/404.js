@@ -2,7 +2,8 @@ import BaseLayout from "@/components/Layout/BaseLayout";
 import Head from "next/head";
 import Image from "next/legacy/image";
 import Link from "next/link";
-import { Button, Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
+import { motion } from "framer-motion";
 
 export default function NotFound(){
     return(
@@ -19,24 +20,27 @@ export default function NotFound(){
                                 <Image 
                                     src = "/assets/404.png"
                                     layout = 'responsive'
-                                    width = { 20 }
-                                    height = { 13 }
+                                    width = { 10 }
+                                    height = { 6.5 }
                                     alt = "404 Image"
+                                    priority
                                 />
                                 <div className = 'py-5'>
                                     <p className = 'fw-bold'>
                                         WE ARE SORRY, BUT THE PAGE YOU REQUESTED WAS NOT FOUND
                                     </p>
-                                    <Link href = '/'>
-                                        <Button 
-                                            className = 'px-5 py-3 mt-2 rounded-pill' 
+                                    <Link href = '/' replace>
+                                        <motion.button 
+                                            whileHover = {{ scale: 1.05 }}
+                                            whileTap = {{ scale: 0.8 }}
+                                            className = 'px-5 py-3 mt-2 rounded-pill text-white' 
                                             style = {{
                                                 backgroundColor: "#4299E1", 
                                                 border: 'none'
                                             }}
                                         >
                                             Go Back Home
-                                        </Button>
+                                        </motion.button>
                                     </Link>
                                 </div>
                             </Col>

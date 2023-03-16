@@ -3,6 +3,8 @@ import { useEffect, useState } from 'react';
 import { Container , Navbar , Offcanvas } from 'react-bootstrap';
 import NavLink from './NavLink';
 
+import { motion } from 'framer-motion';
+
 import style from 'styles/Navbar.module.css';
 
 export default function NavigationBar() {
@@ -35,21 +37,27 @@ export default function NavigationBar() {
                         className = 'p-0' 
                     />
                 </Navbar.Brand>
-
-                <Navbar.Toggle aria-controls="offcanvasNavbar-expand-lg" 
-                    style = {{
-                        border : 'none' ,
-                        background : 'none' ,
-                        outline : 'none' ,
-                        boxShadow : 'none' ,
-                        color : '#000' ,
-                    }}
-                />
-
+                
+                <motion.div
+                    whileHover={{ scale: 1 }}
+                    whileTap={{ scale: 0.7 }}
+                    type='button'
+                    style={{ border: 'none', backgroundColor: 'transparent' }}
+                >
+                    <Navbar.Toggle aria-controls="offcanvasNavbar-expand-lg" 
+                        style = {{
+                            border : 'none' ,
+                            background : 'none' ,
+                            outline : 'none' ,
+                            boxShadow : 'none' ,
+                            color : '#000' ,
+                        }}
+                    />
+                </motion.div>
                 <Navbar.Offcanvas 
                     id = 'offcanvasNavbar-expand-lg' 
                     aria-labelledby = 'offcanvasNavbarLabel-expand-lg' 
-                    placement="end" 
+                    placement = "end"
                     className = {style.mobile_navbar}
                 >
                     <Offcanvas.Header closeButton>
@@ -75,6 +83,5 @@ export default function NavigationBar() {
                 </Navbar.Offcanvas>
             </Container>
         </Navbar>
-
     );
 }

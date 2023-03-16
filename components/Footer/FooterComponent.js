@@ -25,13 +25,28 @@ export default function FooterComponent() {
                                 A non-profit organization committed to finding the best way to share knowledge about technology.
                             </p>
                             <div className='d-flex justify-content-start align-items-center gap-3'>
-                                <a href="#" className="text-white fs-4">
+                                <a 
+                                    href="https://www.instagram.com/sic.unud/" 
+                                    target = "_blank" 
+                                    className = "text-white fs-4" 
+                                    rel = "noreferrer"
+                                >
                                     <BsInstagram />
                                 </a>
-                                <a href="#" className="text-white fs-4">
+                                <a 
+                                    href="https://github.com/sic-unud" 
+                                    target = "_blank" 
+                                    className = "text-white fs-4" 
+                                    rel = "noreferrer"
+                                >
                                     <BsGithub />
                                 </a>
-                                <a href="#" className="text-white fs-4">
+                                <a 
+                                    href="https://www.linkedin.com/company/student-innovation-centre/" 
+                                    target = "_blank" 
+                                    className = "text-white fs-4" 
+                                    rel = "noreferrer"
+                                >
                                     <BsLinkedin />
                                 </a>
                             </div>

@@ -31,17 +31,17 @@
             {
                 "id" : 1,
                 "apps" : "Instagram",
-                "username" : ""
+                "username" : "https://www.instagram.com/tegukuh/"
             },
             {
                 "id" : 2,
                 "apps" : "Github",
-                "username" : ""
+                "username" : "madeputrateg"
             },
             {
                 "id" : 3,
                 "apps" : "Linkedin",
-                "username" : ""
+                "username" : "https://linkedin.com/in/putrateguh"
             }
         ]
     },
